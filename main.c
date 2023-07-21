@@ -9,6 +9,8 @@ int main(int argc, char** argv)
         _log_fatal("No input files.");
         return 1;
     }
-    printf("input file: %s\n", argv[1]);
+
+    log("input file: %s\n", argv[1]);
+    
     return 0;
 }
